@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+  --bg-colour: turquoise;
+}
+
+body {
+  background-color: var(--bg-colour);
+}
