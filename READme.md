@@ -25,6 +25,8 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
 # Wireframe
 
+For this assignment, we've been asked to build an image gallery again, but this time with React. Because of that, my initial wireframe is quite simple—it’s the same design I used last time. I may end up changing it, though, as I work on the project. I'm still a bit unsure about a couple of the ideas I've sketched out and hope to have a clearer vision soon.
+
 <div align="center">
 
 ![Wireframe](./Images/Wireframe.png)
