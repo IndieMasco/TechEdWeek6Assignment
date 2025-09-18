@@ -39,8 +39,4 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
 ### Info
 
-[My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/)
-
-### Provide resources
-
-[Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx) , [Your First Component](https://react.dev/learn/your-first-component) , [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component) , [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks) , [useState](https://react.dev/reference/react/useState) , [Managing State](https://react.dev/learn/managing-state) , [useEffect](https://react.dev/reference/react/useEffect) , [Lifecycle of Reactive Effects](https://react.dev/learn/lifecycle-of-reactive-effects) , [Responding to Events](https://react.dev/learn/responding-to-events) , [Rendering Lists](https://react.dev/learn/rendering-lists) , [Updating Objects in State](https://react.dev/learn/updating-objects-in-state) , [Accessibility in React](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_accessibility) , [WebAIM: Alternative Text](https://webaim.org/techniques/alttext/)
+[My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/) , [Template](https://github.com/Tech-Educators/software-dev-021/blob/main/demos/week6/week6-assignment/src/App.jsx)
