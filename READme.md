@@ -27,7 +27,7 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
 <div align="center">
 
-![Wireframe](./Images/wireframe.png)
+![Wireframe](./Images/Wireframe.png)
 
 </div>
 
