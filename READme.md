@@ -25,7 +25,11 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
 # Wireframe
 
-....
+<div align="center">
+
+![Wireframe](./images/wireframe.png)
+
+</div>
 
 # Errors or Bugs I Encountered
 
@@ -40,3 +44,7 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 ### Info
 
 [My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/) , [Template](https://github.com/Tech-Educators/software-dev-021/blob/main/demos/week6/week6-assignment/src/App.jsx)
+
+### Examples
+
+[MVP](https://basic-gallery-psi.vercel.app/) , [Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
