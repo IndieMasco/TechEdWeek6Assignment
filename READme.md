@@ -2,15 +2,28 @@
 
 For this week's assignment, we're building a gallery, similar to the one we created in Week 2. However, this time we'll be using React to develop it. I'm really interested to see how building the same application with a new approach will differ from the previous one. It'll be a great opportunity to compare the two methods and better understand the advantages of using React.
 
+- i feel like i'm back at the beginning learning JS from scratch
+
 # Requirements
 
-- 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
-- 🎯 Use useEffect for initial fetching of images from an external API.
+- ✅ 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
+- ✅ 🎯 Use useEffect for initial fetching of images from an external API.
+- ✅ 🎯 Use the .map() function to render an array of images dynamically
+- ✅ 🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked.
+
+  - All of the above have been done within Gallery.jsx
+
+- ✅ 🎯 Ensure all images have meaningful alt text.
+
+  - I feel like this was already done for us; we just needed to make sure we pulled the alt text from the API
+
 - 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
-- 🎯 Use the .map() function to render an array of images dynamically
-- 🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked.
-- 🎯 Ensure all images have meaningful alt text.
+
+  - I've only made a Gallery component so far.....
+
 - 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
+
+  - I still need to start this one
 
 # Stretch Requirements
 
