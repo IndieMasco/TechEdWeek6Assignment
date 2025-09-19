@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./Gallery.css";
 
 export default function Gallery() {
   const [items, setItems] = useState([]);
@@ -21,7 +22,7 @@ export default function Gallery() {
 
   return (
     <div className="gallery-container">
-      <h1>The Ribbiting World of Frogs</h1>
+      <h1 className="header">The Ribbiting World of Frogs</h1>
 
       {/* Thumbnail */}
       <div className="thumbnails-container">
@@ -39,10 +40,12 @@ export default function Gallery() {
       </div>
 
       {/* Large image */}
-      <div className="main-image-container">
-        <h2>{selectedImage.title}</h2>
-        <img src={selectedImage.url} alt={selectedImage.alt} />
-      </div>
+      {selectedImage && (
+        <div className="main-image-container">
+          <h2>{selectedImage.title}</h2>
+          <img src={selectedImage.url} alt={selectedImage.alt} />
+        </div>
+      )}
     </div>
   );
 }

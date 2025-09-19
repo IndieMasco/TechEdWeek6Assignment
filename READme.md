@@ -3,6 +3,9 @@
 For this week's assignment, we're building a gallery, similar to the one we created in Week 2. However, this time we'll be using React to develop it. I'm really interested to see how building the same application with a new approach will differ from the previous one. It'll be a great opportunity to compare the two methods and better understand the advantages of using React.
 
 - i feel like i'm back at the beginning learning JS from scratch
+- i dont no how i feel about spliting everything up into different files
+- making hand written notes helped
+- i tried a little bit of tailwindcss within Footer.jsx
 
 # Requirements
 
@@ -17,9 +20,9 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
   - I feel like this was already done for us; we just needed to make sure we pulled the alt text from the API
 
-- 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
+- ✅ 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
 
-  - I've only made a Gallery component so far.....
+  - Components i have - Gallery.jsx, Gallery.css, Footer.jsx
 
 - 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
@@ -48,7 +51,25 @@ For this assignment, we've been asked to build an image gallery again, but this 
 
 # Errors or Bugs I Encountered
 
-....
+- i had everything working no errors then the next morning nothing was showing and i had errors
+  - Original code
+  ```javascript
+  <div className="main-image-container">
+    <h2>{selectedImage.title}</h2>
+    <img src={selectedImage.url} alt={selectedImage.alt} />
+  </div>
+  ```
+  - New code
+  ```javascript
+  {
+    selectedImage && (
+      <div className="main-image-container">
+        <h2>{selectedImage.title}</h2>
+        <img src={selectedImage.url} alt={selectedImage.alt} />
+      </div>
+    );
+  }
+  ```
 
 # What went really well and what could have gone better?
 
