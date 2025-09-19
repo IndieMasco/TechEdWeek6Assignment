@@ -130,14 +130,7 @@ Gabbys view
 # What went really well and what could have gone better?
 
 - Not thinking I'm still using vanilla JavaScript 😂
-
-- something
-<div align="center">
-test
-
-![Mobile](./Images/Mobile.png) ![Mobile2](./Images/Mobile2.jpg)
-
-</div>
+- Is there a way to test a mobile view better on a desktop because I've been using the responsive view in Chrome and it all looks fine, but once I had pushed everything to render, my footer wasn't a footer anymore. You'll be able to see what I mean if you look inside my `images` folder: `Mobile` is within Chrome and `Mobile2` is on my actual mobile
 
 # External sources
 
