@@ -54,7 +54,7 @@ For this assignment, we've been asked to build an image gallery again, but this 
 
 The overall design changed a little as I was putting it all together. I didn't like how the images were so big on the page; it just didn't look very pleasing to the eye to me, so I made the images smaller. They are still big enough to be the main focus of the gallery, though.
 
-I've added images of what it actually looks like on desktop and mobile in my `images` folder so you can see what little changes I have made. There are still a couple of bits I want to play around with in CSS just to help finish off the styling.
+I've added images of what it actually looks like on desktop and mobile in my `images` folder (`DeskTop.png` , `Mobile.png`) so you can see what little changes I have made. There are still a couple of bits I want to play around with in CSS just to help finish off the styling.
 
 <div align="center">
 Wireframe
