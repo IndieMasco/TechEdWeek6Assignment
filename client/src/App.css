@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
 /* Generic styling */
+html,
 body {
   background-image: url(./Background.png);
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Francois One", sans-serif;

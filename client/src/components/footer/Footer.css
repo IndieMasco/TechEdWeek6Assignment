@@ -1,19 +1,8 @@
-#footer {
-  background-color: #1d8d84;
-  color: black;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  padding: 0.5rem;
-  text-align: center;
-  border-top: 2px solid black;
-}
-
 @media (max-width: 800px) {
   #footer {
     background-color: #1d8d84;
     color: black;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     padding: 0.5rem;

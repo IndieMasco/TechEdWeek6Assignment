@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Footer from "../footer/Footer";
 import "./Gallery.css";
 
 export default function Gallery() {
@@ -42,48 +41,45 @@ export default function Gallery() {
   };
 
   return (
-    <>
-      <div className="gallery-container">
-        <h1 className="header">The Ribbiting World of Frogs</h1>
+    <div className="gallery-container">
+      <h1 className="header">The Ribbiting World of Frogs</h1>
 
-        {/* Thumbnail */}
-        <div className="thumbnails-container">
-          {items.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => setSelectedImage(item)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  setSelectedImage(item);
-                }
-              }}
-              className={`thumbnail-button ${
-                selectedImage?.id === item.id ? "active" : ""
-              }`}
-              aria-label={`Select image of ${item.alt}`}
-            >
-              <img src={item.url} alt={item.alt} className="thumbnail-image" />
-            </button>
-          ))}
-        </div>
-
-        {/* Large image and buttons */}
-        {selectedImage && (
-          <div className="main-image-container">
-            <h2>{selectedImage.title}</h2>
-            <div className="image-button-container">
-              <button onClick={handlePrevious} className="button">
-                Previous
-              </button>
-              <img src={selectedImage.url} alt={selectedImage.alt} />
-              <button onClick={handleNext} className="button">
-                Next
-              </button>
-            </div>
-          </div>
-        )}
+      {/* Thumbnail */}
+      <div className="thumbnails-container">
+        {items.map((item) => (
+          <button
+            key={item.id}
+            onClick={() => setSelectedImage(item)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                setSelectedImage(item);
+              }
+            }}
+            className={`thumbnail-button ${
+              selectedImage?.id === item.id ? "active" : ""
+            }`}
+            aria-label={`Select image of ${item.alt}`}
+          >
+            <img src={item.url} alt={item.alt} className="thumbnail-image" />
+          </button>
+        ))}
       </div>
-      <Footer />
-    </>
+
+      {/* Large image and buttons */}
+      {selectedImage && (
+        <div className="main-image-container">
+          <h2>{selectedImage.title}</h2>
+          <div className="image-button-container">
+            <button onClick={handlePrevious} className="button">
+              Previous
+            </button>
+            <img src={selectedImage.url} alt={selectedImage.alt} />
+            <button onClick={handleNext} className="button">
+              Next
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }

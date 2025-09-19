@@ -110,15 +110,4 @@
     padding: 10px;
     font-size: 1.5rem;
   }
-
-  #footer {
-    background-color: #1d8d84;
-    color: black;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    padding: 0.5rem;
-    text-align: center;
-    border-top: 2px solid black;
-  }
 }
