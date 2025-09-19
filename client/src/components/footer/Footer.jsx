@@ -5,7 +5,7 @@ export default function Footer() {
         Quote of the day: The strongest people are not those who show strength
         in front of us but those who win battles we know nothing about
       </p>
-      <p className="text-black text-sm">Made by Sam P J Clark &copy; 2025</p>
+      <p className="text-black text-sm">Made by S P J Clark &copy; 2025</p>
     </footer>
   );
 }
