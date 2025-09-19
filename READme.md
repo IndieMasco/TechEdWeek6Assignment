@@ -49,14 +49,14 @@ The overall design changed a little as I was putting it all together. I didn't l
 I've added an image of both my wireframe and gallery so I can show what little changes I have made. There are still things I would like to play around with in CSS to help make it look better and not have so much dead space.
 
 <div align="center">
-- Wireframe
+Wireframe
 
 ![Wireframe](./Images/Wireframe.png)
 
 </div>
 
 <div align="center">
-- Image Gallery
+Image Gallery
 
 ![The Ribbiting World of Frogs](./Images/Gallery.png)
 
