@@ -12,40 +12,40 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 # Requirements
 
-- ✅ 🎯 Implement the useState hook to manage gallery state (e.g. selected image)
-- ✅ 🎯 Use useEffect for initial fetching of images from an external API
-- ✅ 🎯 Use the .map() function to render an array of images dynamically
-- ✅ 🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked
+- ✅ 🎯 Implement the useState hook to manage gallery state (e.g. selected image).
+- ✅ 🎯 Use useEffect for initial fetching of images from an external API.
+- ✅ 🎯 Use the .map() function to render an array of images dynamically.
+- ✅ 🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked.
 
-  - All of the above have been done within Gallery.jsx
+  - All of the above have been done within Gallery.jsx.
 
-- ✅ 🎯 Ensure all images have meaningful alt text
+- ✅ 🎯 Ensure all images have meaningful alt text.
 
-  - I feel like this was already done for us; we just needed to make sure we pulled the alt text from the API
+  - I feel like this was already done for us; we just needed to make sure we pulled the alt text from the API.
 
-- ✅ 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them)
+- ✅ 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
 
-  - Components i have - Gallery.jsx, Footer.jsx
+  - Components i have - Gallery.jsx, Footer.jsx.
 
-- ✅ 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space)
+- ✅ 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
-  - You can navigate the gallery using tab and select an image using enter or space
+  - You can navigate the gallery using tab and select an image using enter or space.
 
 # Stretch Requirements
 
-- ✅ 🏹 Use .env to hide your API keys and tokens from the code
-  - I have got the API link within my `.env` file and within my Gallery.jsx im pulling the API with `const response = await fetch(import.meta.env.VITE_FROG_API);`
-- ✅ 🏹 Style the application excellently, using grid or flex and positioning
-  - personally i feel like i have Styled my gallery excellently
-    - It works on both desktop and mobile
-    - I've made sure the text is readable
-    - I have gone for a more playful header font, but I still think it is readable
-    - Everything is easy to see; I don't think anything blends in with each other
+- ✅ 🏹 Use .env to hide your API keys and tokens from the code.
+  - I have got the API link within my `.env` file and within my Gallery.jsx im pulling the API with `const response = await fetch(import.meta.env.VITE_FROG_API);`.
+- ✅ 🏹 Style the application excellently, using grid or flex and positioning.
+  - personally i feel like i have Styled my gallery excellently.
+    - It works on both desktop and mobile.
+    - I've made sure the text is readable.
+    - I have gone for a more playful header font, but I still think it is readable.
+    - Everything is easy to see; I don't think anything blends in with each other.
 
 # requirements that I wasn't able to achieve
 
-- ❌ 🏹 Set up an Unsplash application that you can fetch from your React app
-- ❌ 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field
+- ❌ 🏹 Set up an Unsplash application that you can fetch from your React app.
+- ❌ 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field.
   - These two stretch goals kinda go together. I can't really do the useEffect without doing the Unsplash first.
 
 # Wireframe
@@ -66,8 +66,7 @@ Wireframe
 # Errors or Bugs I Encountered
 
 - I sent my gallery to Gabby to show her where I'm currently at, but for some reason, the footer is placed differently for each of us.
-- After a quick Google search, the reason I've concluded is that we either have different screen resolutions or browser window sizes. Since I built my image gallery with a responsive design, its layout adapts to different screen sizes.
-- How would I adjust for this in future projects?
+  - After a quick Google search, the reason I've come to is that we either have different screen resolutions or browser window sizes.
 
 <div align="center">
 My view
@@ -82,6 +81,11 @@ Gabbys view
 ![Gabbys view](./Images/GabbyView.png)
 
 </div>
+
+- NEW issue with my footer. It doesn't stay at the bottom of the screen on desktop or mobile. I have tried multiple way to try and keep it at the bottom but nothing has worked so far. 🥹
+
+  - I've added a video within the `Videos` folder showing what I mean for desktop.
+  - I've added a image within the `Image` folder (`Mobile2.png`) showing what I mean for mobile.
 
 - I had everything working Thursday evening with no errors, but when I loaded everything up the next day to continue working on it, nothing was showing on the page. I kept getting this error in my console (Image below). The way I found to solve it was to wrap the part that was throwing the error in `{selectedImage && ()}`. But why didn't I have this error Thursday evening, and it only appeared the next morning? I was speaking to Will and he said he had the same issue and solved it the same way.
 
@@ -123,3 +127,7 @@ Gabbys view
 ### Info
 
 [My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/) , [Template](https://github.com/Tech-Educators/software-dev-021/blob/main/demos/week6/week6-assignment/src/App.jsx)
+
+### Footer
+
+[HOW to keep your FOOTER at the bottom of the page with CSS](https://www.youtube.com/watch?v=ffb34dCmMVQ)
