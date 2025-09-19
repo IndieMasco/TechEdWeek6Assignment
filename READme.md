@@ -80,6 +80,8 @@ Mobile
 # Errors or Bugs I Encountered
 
 - I sent my gallery to Gabby to show her where I'm currently at, but for some reason, the footer is placed differently for each of us.
+- After a quick Google search, the reason I've concluded is that we either have different screen resolutions or browser window sizes. Since I built my image gallery with a responsive design, its layout adapts to different screen sizes.
+- How would I adjust for this in future projects?
 
 <div align="center">
 My view
