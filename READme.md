@@ -2,7 +2,7 @@
 
 For this week's assignment, we're building a gallery, similar to the one we created in Week 2. However, this time we'll be using React to develop it. I'm really interested to see how building the same application with a new approach will differ from the previous one. It'll be a great opportunity to compare the two methods and better understand the advantages of using React.
 
-For this week's assignment, I feel like I'm back at the beginning, learning JavaScript all over again. I just kept thinking of how to do things with vanilla JavaScript and forgetting that I'm using React. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction
+I feel like I'm back at the beginning, learning JavaScript all over again. I just kept thinking of how to do things with vanilla JavaScript and forgetting that I'm using React. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction
 
 I don't know how to feel about React and TailwindCSS at the moment. Splitting up the JavaScript into different files and styling with the JavaScript all just feels alien to me, as I'm used to doing things on three different files: index.html, style.css, and app.js. I'm sure I will get used to it the more we use React and TailwindCSS.
 
