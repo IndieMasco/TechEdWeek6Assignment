@@ -47,15 +47,21 @@ export default function Gallery() {
       {/* Thumbnail */}
       <div className="thumbnails-container">
         {items.map((item) => (
-          <img
+          <button
             key={item.id}
-            src={item.url}
-            alt={item.alt}
             onClick={() => setSelectedImage(item)}
-            className={`thumbnail-image ${
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                setSelectedImage(item);
+              }
+            }}
+            className={`thumbnail-button ${
               selectedImage?.id === item.id ? "active" : ""
             }`}
-          />
+            aria-label={`Select image of ${item.alt}`}
+          >
+            <img src={item.url} alt={item.alt} className="thumbnail-image" />
+          </button>
         ))}
       </div>
 

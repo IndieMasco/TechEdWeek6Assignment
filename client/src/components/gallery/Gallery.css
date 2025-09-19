@@ -23,20 +23,24 @@
   padding: 1rem;
 }
 
-.thumbnail-image {
-  height: 90px;
-  cursor: pointer;
-  border-radius: 10px;
+.thumbnail-button {
   border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 13px;
 }
 
-.thumbnail-image.active {
+.thumbnail-button.active {
   border: 4px solid #1d8d84;
   transform: scale(1.1);
 }
 
-.thumbnail-image:hover {
+.thumbnail-button:hover {
   transform: scale(1.1);
+}
+
+.thumbnail-image {
+  height: 90px;
+  border-radius: 10px;
 }
 
 /* Large image */

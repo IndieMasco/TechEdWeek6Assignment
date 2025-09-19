@@ -24,9 +24,9 @@ For this week's assignment, we're building a gallery, similar to the one we crea
 
   - Components i have - Gallery.jsx, Gallery.css, Footer.jsx
 
-- 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
+- ✅ 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
-  - I still need to start this one
+  - You can navigate the gallery using tab and select an image using enter or space
 
 # Stretch Requirements
 
@@ -52,24 +52,34 @@ For this assignment, we've been asked to build an image gallery again, but this 
 # Errors or Bugs I Encountered
 
 - i had everything working no errors then the next morning nothing was showing and i had errors
-  - Original code
-  ```javascript
-  <div className="main-image-container">
-    <h2>{selectedImage.title}</h2>
-    <img src={selectedImage.url} alt={selectedImage.alt} />
-  </div>
-  ```
-  - New code
-  ```javascript
-  {
-    selectedImage && (
-      <div className="main-image-container">
-        <h2>{selectedImage.title}</h2>
-        <img src={selectedImage.url} alt={selectedImage.alt} />
-      </div>
-    );
-  }
-  ```
+
+<div align="center">
+
+![Error](./Images/Error.png)
+
+</div>
+
+- Original code
+
+```javascript
+<div className="main-image-container">
+  <h2>{selectedImage.title}</h2>
+  <img src={selectedImage.url} alt={selectedImage.alt} />
+</div>
+```
+
+- New code
+
+```javascript
+{
+  selectedImage && (
+    <div className="main-image-container">
+      <h2>{selectedImage.title}</h2>
+      <img src={selectedImage.url} alt={selectedImage.alt} />
+    </div>
+  );
+}
+```
 
 # What went really well and what could have gone better?
 
