@@ -44,8 +44,9 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 # requirements that I wasn't able to achieve
 
-- ❌ 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field
 - ❌ 🏹 Set up an Unsplash application that you can fetch from your React app
+- ❌ 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field
+  - These two stretch goals kinda go together. I can't really do the useEffect without doing the Unsplash first.
 
 # Wireframe
 
