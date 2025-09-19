@@ -79,6 +79,22 @@ Mobile
 
 # Errors or Bugs I Encountered
 
+- I sent my gallery to Gabby to show her where I'm currently at, but for some reason, the footer is placed differently for each of us.
+
+<div align="center">
+My view
+
+![My View](./Images/MyView.png)
+
+</div>
+
+<div align="center">
+Gabbys view
+
+![Gabbys view](./Images/GabbyView.png)
+
+</div>
+
 - I had everything working Thursday evening with no errors, but when I loaded everything up the next day to continue working on it, nothing was showing on the page. I kept getting this error in my console (Image below). The way I found to solve it was to wrap the part that was throwing the error in `{selectedImage && ()}`. But why didn't I have this error Thursday evening, and it only appeared the next morning? I was speaking to Will and he said he had the same issue and solved it the same way.
 
 <div align="center">
