@@ -7,7 +7,7 @@ export default function Gallery() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("https://week-6-api.vercel.app/api/images");
+      const response = await fetch(import.meta.env.VITE_FROG_API);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

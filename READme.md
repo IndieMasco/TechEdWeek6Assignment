@@ -2,11 +2,13 @@
 
 For this week's assignment, we're building a gallery, similar to the one we created in Week 2. However, this time we'll be using React to develop it. I'm really interested to see how building the same application with a new approach will differ from the previous one. It'll be a great opportunity to compare the two methods and better understand the advantages of using React.
 
-I feel like I'm back at the beginning, learning JavaScript all over again. I just kept thinking of how to do things with vanilla JavaScript and forgetting that I'm using React. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction
+I feel like I'm back at the beginning, learning JavaScript all over again. I just kept thinking of how to do things with vanilla JavaScript and forgetting that I'm using React. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction.
 
 I don't know how to feel about React and TailwindCSS at the moment. Splitting up the JavaScript into different files and styling with the JavaScript all just feels alien to me, as I'm used to doing things on three different files: index.html, style.css, and app.js. I'm sure I will get used to it the more we use React and TailwindCSS.
 
 I had a little go at TailwindCSS within Footer.jsx. I can see the advantage of using it, but at the moment for me and my OCD, I like having all the CSS within its own file as it's a lot easier to find something and make any changes. Again, because this is new, I'm sure over time my mindset will change.
+
+If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
 
 # Requirements
 
@@ -31,14 +33,19 @@ I had a little go at TailwindCSS within Footer.jsx. I can see the advantage of u
 
 # Stretch Requirements
 
-- 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field
-- 🏹 Set up an Unsplash application that you can fetch from your React app
-- 🏹 Use .env to hide your API keys and tokens from the code
-- 🏹 Style the application excellently, using grid or flex and positioning
+- ✅ 🏹 Use .env to hide your API keys and tokens from the code
+  - I have got the API link within my `.env` file and within my Gallery.jsx im pulling the API with `const response = await fetch(import.meta.env.VITE_FROG_API);`
+- ✅ 🏹 Style the application excellently, using grid or flex and positioning
+  - personally i feel like i have Styled my gallery excellently
+    - It works on both desktop and mobile
+    - I've made sure the text is readable
+    - I have gone for a more playful header font, but I still think it is readable
+    - Everything is easy to see; I don't think anything blends in with each other
 
 # requirements that I wasn't able to achieve
 
-....
+- ❌ 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field
+- ❌ 🏹 Set up an Unsplash application that you can fetch from your React app
 
 # Wireframe
 
@@ -46,7 +53,7 @@ For this assignment, we've been asked to build an image gallery again, but this 
 
 The overall design changed a little as I was putting it all together. I didn't like how the images were so big on the page; it just didn't look very pleasing to the eye to me, so I made the images smaller. They are still big enough to be the main focus of the gallery, though.
 
-I've added an image of both my wireframe and gallery so I can show what little changes I have made. There are still things I would like to play around with in CSS to help make it look better and not have so much dead space.
+I've added images of my wireframe and what it actually looks like on desktop and mobile so I can show what little changes I have made. There are still a couple of bits I want to play around with in CSS just to help finish off the styling.
 
 <div align="center">
 Wireframe
@@ -56,9 +63,16 @@ Wireframe
 </div>
 
 <div align="center">
-Image Gallery
+Desk Top
 
-![The Ribbiting World of Frogs](./Images/Gallery.png)
+![Desk Top](./Images/DeskTop.png)
+
+</div>
+
+<div align="center">
+Mobile
+
+![Mobile](./Images/Mobile.png)
 
 </div>
 
@@ -103,7 +117,3 @@ Image Gallery
 ### Info
 
 [My own repo](https://github.com/IndieMasco/TechEdSoftwareDeveloper021) , [Tech Ed repo](https://github.com/Tech-Educators/software-dev-021) , [FigJam](https://www.figma.com/board/JjN2Zgtoynrau06MjWJs6q/SD021?node-id=0-1&p=f&t=V1WCGcrmVKnoxJDr-0) , [MDN](https://developer.mozilla.org/en-US/) , [W3School](https://www.w3schools.com/) , [Template](https://github.com/Tech-Educators/software-dev-021/blob/main/demos/week6/week6-assignment/src/App.jsx)
-
-### Examples
-
-[MVP](https://basic-gallery-psi.vercel.app/) , [Stretch](https://great-images-iq88jjcm5-slouloudis.vercel.app/)
