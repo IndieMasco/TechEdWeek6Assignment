@@ -23,11 +23,11 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 - ✅ 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
 
-  - Components - Header.jsx, Gallery.jsx, Footer.jsx.
+  - Components - Header.jsx, Gallery.jsx, Buttons.jsx, Footer.jsx.
 
 - ✅ 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
-  - You can navigate the gallery using tab and select an image using enter or space.
+  - You can navigate the gallery using tab or the arrow keys and select an image using enter or space.
 
 # Stretch Requirements
 

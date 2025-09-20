@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Gallery.css";
+import Button from "./buttons/Buttons";
+
 export default function Gallery() {
   const [items, setItems] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -18,26 +20,6 @@ export default function Gallery() {
     }
     fetchData();
   }, []);
-
-  const handleNext = () => {
-    if (items.length > 0) {
-      const currentIndex = items.findIndex(
-        (item) => item.id === selectedImage.id
-      );
-      const nextIndex = (currentIndex + 1) % items.length;
-      setSelectedImage(items[nextIndex]);
-    }
-  };
-
-  const handlePrevious = () => {
-    if (items.length > 0) {
-      const currentIndex = items.findIndex(
-        (item) => item.id === selectedImage.id
-      );
-      const prevIndex = (currentIndex - 1 + items.length) % items.length;
-      setSelectedImage(items[prevIndex]);
-    }
-  };
 
   return (
     <div className="gallery-container">
@@ -67,13 +49,8 @@ export default function Gallery() {
         <div className="main-image-container">
           <h2>{selectedImage.title}</h2>
           <div className="image-button-container">
-            <button onClick={handlePrevious} className="button">
-              Previous
-            </button>
+            <Button />
             <img src={selectedImage.url} alt={selectedImage.alt} />
-            <button onClick={handleNext} className="button">
-              Next
-            </button>
           </div>
         </div>
       )}
