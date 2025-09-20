@@ -2,11 +2,9 @@
 
 For this week's assignment, we're building a gallery, similar to the one we created in Week 2. However, this time we'll be using React to develop it. I'm really interested to see how building the same application with a new approach will differ from the previous one. It'll be a great opportunity to compare the two methods and better understand the advantages of using React.
 
-I feel like I'm back at the beginning, learning JavaScript all over again. I just kept thinking of how to do things with vanilla JavaScript and forgetting that I'm using React. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction.
+I feel like I'm back at the beginning, learning JavaScript all over again. My brain kept hitting a wall when I tried to think of how I would go about doing it, so I ended up going through what we had done during the week and making notes of which lessons would help me start moving in the right direction.
 
-I don't know how to feel about React and TailwindCSS at the moment. Splitting up the JavaScript into different files and styling with the JavaScript all just feels alien to me, as I'm used to doing things on three different files: index.html, style.css, and app.js. I'm sure I will get used to it the more we use React and TailwindCSS.
-
-I had a little go at TailwindCSS within Footer.jsx. I can see the advantage of using it, but at the moment for me and my OCD, I like having all the CSS within its own file as it's a lot easier to find something and make any changes. Again, because this is new, I'm sure over time my mindset will change.
+Getting to grips with React and TailwindCSS has been a bit of an adjustment. Combining my code and styles all in one file feels pretty alien right now, especially since I'm so used to keeping everything separate in HTML, CSS, and JS files. But I know it's just a matter of practice. I did a bit of styling with TailwindCSS on the Footer.jsx component and, even though my OCD side misses a dedicated CSS file, I can already see the benefits. I'm sure that the more I use these tools, the more my mindset will shift.
 
 If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
 
@@ -50,11 +48,9 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 # Wireframe
 
-For this assignment, we've been asked to build an image gallery again, but this time with React. Because of that, my initial wireframe is quite simple—it’s the same design I used last time. I may end up changing it, though, as I work on the project. I'm still a bit unsure about a couple of the ideas I've sketched out and hope to have a clearer vision soon.
+For this assignment, we've been asked to build an image gallery again, but this time with React. Because of that, my initial wireframe is quite simple—it’s the same design I used last time. I may end up changing it, as I work on the project. I'm still a bit unsure about a couple of the ideas I've sketched out and hope to have a clearer vision soon.
 
-The overall design changed a little as I was putting it all together. I didn't like how the images were so big on the page; it just didn't look very pleasing to the eye to me, so I made the images smaller. They are still big enough to be the main focus of the gallery, though.
-
-I've added images of what it actually looks like on desktop and mobile in my `images` folder (`DeskTop.png` , `Mobile.png`) so you can see what little changes I have made. There are still a couple of bits I want to play around with in CSS just to help finish off the styling.
+The overall design changed a little as I was putting it all together. I didn't like how the images were so big on the page; it just didn't look very pleasing to the eye to me, so I made the images smaller. They are still big enough to be the main focus of the gallery.
 
 <div align="center">
 Wireframe
