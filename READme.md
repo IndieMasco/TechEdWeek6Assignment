@@ -80,8 +80,9 @@ Gabbys view
 
 - NEW issue with my footer. It doesn't stay at the bottom of the screen on desktop or mobile. I have tried multiple way to try and keep it at the bottom but nothing has worked so far. 🥹
 
-  - I've added a video within the `Videos` folder showing what I mean for desktop.
+  - I've added a video within the `Videos` folder (`FooterIssue.mp4`) showing what I mean for desktop.
   - I've added a image within the `Image` folder (`Mobile2.png`) showing what I mean for mobile.
+  - Mobile — I'm making progress. I've got the footer to stay at the bottom, but now it's always in view and overlays the content on the page.
 
 - I had everything working Thursday evening with no errors, but when I loaded everything up the next day to continue working on it, nothing was showing on the page. I kept getting this error in my console (Image below). The way I found to solve it was to wrap the part that was throwing the error in `{selectedImage && ()}`. But why didn't I have this error Thursday evening, and it only appeared the next morning? I was speaking to Will and he said he had the same issue and solved it the same way.
 
@@ -126,4 +127,4 @@ Gabbys view
 
 ### Footer
 
-[HOW to keep your FOOTER at the bottom of the page with CSS](https://www.youtube.com/watch?v=ffb34dCmMVQ)
+[HOW to keep your FOOTER at the bottom of the page with CSS](https://www.youtube.com/watch?v=ffb34dCmMVQ) , [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/) , [Footer at bottom of page or content, whichever is lower](https://stackoverflow.com/questions/12239166/footer-at-bottom-of-page-or-content-whichever-is-lower) , [How TO - Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)

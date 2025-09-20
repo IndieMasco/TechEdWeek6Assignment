@@ -11,3 +11,126 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+/* Header */
+.header {
+  background-color: #1d8d84;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  border-bottom: 2px solid black;
+  font-family: "Rubik Moonrocks", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Thumbnails */
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thumbnails-container {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1rem;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.thumbnail-button {
+  border: 3px solid transparent;
+  cursor: pointer;
+  border-radius: 13px;
+}
+
+.thumbnail-button.active {
+  border: 4px solid #1d8d84;
+  transform: scale(1.1);
+}
+
+.thumbnail-button:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-image {
+  height: 90px;
+  border-radius: 10px;
+}
+
+/* Large image */
+.main-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.image-button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 7px;
+}
+
+.image-button-container img {
+  max-height: 550px;
+  border-radius: 15px;
+}
+
+/* Buttons */
+.button {
+  background-color: #1d8d84;
+  color: black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  /* Thumbnails */
+  .thumbnails-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+  }
+
+  /* Large image */
+  .image-button-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .image-button-container img {
+    width: 90%;
+  }
+
+  /* Buttons */
+  .button {
+    width: 25%;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  #footer {
+    background-color: #1d8d84;
+    color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 0.5rem;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+}
