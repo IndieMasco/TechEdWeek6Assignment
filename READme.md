@@ -15,7 +15,7 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 - ✅ 🎯 Use the .map() function to render an array of images dynamically.
 - ✅ 🎯 Implement functionality to display a larger version of an image when its thumbnail is clicked.
 
-  - All of the above have been done within Gallery.jsx.
+  - All of the above have been done within Gallery.jsx and LargeImage.jsx.
 
 - ✅ 🎯 Ensure all images have meaningful alt text.
 
@@ -23,7 +23,7 @@ If there is anything you think I could do better or improve on, I'd be happy to 
 
 - ✅ 🎯 Return JSX from multiple components (e.g., an ImageItem component for each image and a Gallery component to display them).
 
-  - Components - Header.jsx, Gallery.jsx, Buttons.jsx, Footer.jsx.
+  - Components - Header.jsx, Gallery.jsx, LargeImage.jsx, Footer.jsx.
 
 - ✅ 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
 
@@ -35,7 +35,7 @@ If there is anything you think I could do better or improve on, I'd be happy to 
   - I have got the API link within my `.env` file and within my Gallery.jsx im pulling the API with `const response = await fetch(import.meta.env.VITE_FROG_API);`.
 - ✅ 🏹 Style the application excellently, using grid or flex and positioning.
   - personally i feel like i have Styled my gallery excellently.
-    - It works on both desktop and mobile.
+    - It works on both desktop and mobile. (Apart from the footer on mobile at the moment.......🤬)
     - I've made sure the text is readable.
     - I have gone for a more playful header font, but I still think it is readable.
     - Everything is easy to see; I don't think anything blends in with each other.

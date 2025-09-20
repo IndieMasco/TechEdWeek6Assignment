@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
+import LargeImage from "./largeImage/LargeImage";
 import "./Gallery.css";
-import Button from "./buttons/Buttons";
 
 export default function Gallery() {
   const [items, setItems] = useState([]);
@@ -44,16 +44,12 @@ export default function Gallery() {
         ))}
       </div>
 
-      {/* Large image and buttons */}
-      {selectedImage && (
-        <div className="main-image-container">
-          <h2>{selectedImage.title}</h2>
-          <div className="image-button-container">
-            <Button />
-            <img src={selectedImage.url} alt={selectedImage.alt} />
-          </div>
-        </div>
-      )}
+      {/* Large image and Buttons */}
+      <LargeImage
+        selectedImage={selectedImage}
+        setSelectedImage={setSelectedImage}
+        items={items}
+      />
     </div>
   );
 }
