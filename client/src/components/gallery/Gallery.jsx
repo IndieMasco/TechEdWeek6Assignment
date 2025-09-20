@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "./Gallery.css";
-
 export default function Gallery() {
   const [items, setItems] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -42,8 +41,6 @@ export default function Gallery() {
 
   return (
     <div className="gallery-container">
-      <h1 className="header">The Ribbiting World of Frogs</h1>
-
       {/* Thumbnail */}
       <div className="thumbnails-container">
         {items.map((item) => (
