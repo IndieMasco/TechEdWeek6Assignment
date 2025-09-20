@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./Gallery.css";
 
 export default function Gallery() {
   const [items, setItems] = useState([]);
